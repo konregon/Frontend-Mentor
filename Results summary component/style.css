@@ -6,3 +6,116 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(187, 192, 176);
+}
+
+p {
+    /* font-weight: 600; */
+}
+
+i {
+    padding: 0 10px;
+}
+
+.container {
+    width: 375px;
+    background-color: white;
+    /* margin: auto; */
+}
+
+.result {
+    /* Put this BG color in gradient */
+    background-color: hsl(241, 81%, 54%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.result-title p {
+    color: hsl(221, 100%, 96%);
+}
+
+.result-circle {
+    width: 80px;
+    height: 80px;
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.result-grade {
+    text-align: center;
+}
+
+.summary {
+    padding: 1rem;
+    background-color: white;
+    font-weight: 600;
+}
+
+.summary-title p {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.summary-mark {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 7px;
+}
+
+.Reaction {
+    background: linear-gradient(to right, hsl(0, 100%, 95%) 0%, hsl(0, 100%, 98%) 100%);
+}
+
+.Reaction-left {
+    color: hsl(0, 100%, 67%);
+}
+
+.Memory {
+    background: linear-gradient(to right, hsl(39, 100%, 95%) 0%, hsl(39, 100%, 98%) 100%);
+}
+
+.Memory-left {
+    color: hsl(39, 100%, 56%);
+}
+
+.Verbal {
+    background: linear-gradient(to right, hsl(166, 100%, 95%) 0%, hsl(166, 100%, 98%) 100%);
+}
+
+.Verbal-left {
+    color: hsl(166, 100%, 37%);
+}
+
+.Visual {
+    background: linear-gradient(to right, hsl(234, 85%, 95%) 0%, hsl(234, 85%, 98%) 100%);
+}
+
+.Visual-left {
+    color: hsl(234, 85%, 45%);
+}
+
+.summary-mark-right-100 {
+    color: hsl(0, 0%, 60%);
+}
+
+.continue-btn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: hsl(232, 29%, 20%);
+    color: white;
+    border: none;
+    margin-bottom: .7rem;
+}
