@@ -1,47 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  Your Result
-  76
-  of 100
+  <div class="container">
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
 
-  Reaction
-  80 / 100
+    <div class="result">
+      <div class="result-title">
+        <p>Your Result</p>
+      </div>
+      <div class="result-circle">
+        <p>76</p>
+        <p>of 100</p>
+      </div>
+      <div class="result-grade">
+        <p>Great</p>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
 
-  Memory
-  92 / 100
 
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="summary">
+      <div class="summary-title">
+        <p>Summary</p>
+      </div>
+      <div class="Reaction">
+        <div class="Reaction-left">Reaction</div>
+        <div class="Reaction-right">80 / 100</div>
+      </div>
+      <div class="Memory">
+        <div class="Memory-left">Memory</div>
+        <div class="Memory-right">92 / 100</div>
+      </div>
+      <div class="Verbal">
+        <div class="Verbal-left">Verbal</div>
+        <div class="Verbal-right">61 / 100</div>
+      </div>
+      <div class="Visual">
+        <div class="Visual-left">Visual</div>
+        <div class="Visual-right">72 / 100</div>
+      </div>
+      <button class="continue-btn">Continue</button>
+    </div>
   </div>
+
+
+
+
+
 </body>
+
 </html>
