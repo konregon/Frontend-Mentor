@@ -27,7 +27,7 @@ i {
 
 .result {
     /* Put this BG color in gradient */
-    background-color: hsl(241, 81%, 54%);
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,19 +38,44 @@ i {
 
 .result-title p {
     color: hsl(221, 100%, 96%);
+    padding: 1rem 0;
 }
 
 .result-circle {
-    width: 80px;
-    height: 80px;
-    background-color: hsl(252, 100%, 67%);
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%);
     border-radius: 50%;
     text-align: center;
     padding-top: 1rem;
 }
 
+.result-circle-top {
+    color: hsl(221, 100%, 96%);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.result-circle-bottom {
+    color: hsl(0, 0%, 60%);
+    font-weight: 600;
+}
+
 .result-grade {
     text-align: center;
+}
+
+.result-grade-top {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    color: hsl(0, 100%, 95%);
+}
+
+.result-grade-bottom {
+    padding: 0 3rem 2rem 3rem;
+    font-size: 1rem;
+    color: hsl(221, 100%, 96%);
 }
 
 .summary {
