@@ -144,3 +144,11 @@ i {
     border: none;
     margin-bottom: .7rem;
 }
+
+/* DESKTOP */
+@media only screen and (min-width: 375px) {
+    .container {
+        display: flex;
+        width: 765px;
+    }
+}
