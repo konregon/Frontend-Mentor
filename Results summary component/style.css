@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgb(187, 192, 176);
+    /* background-color: rgb(187, 192, 176); */
 }
 
 p {
@@ -149,6 +149,15 @@ i {
 @media only screen and (min-width: 375px) {
     .container {
         display: flex;
-        width: 765px;
+        /* max-width: 765px; */
+    }
+
+    .result {
+        min-width: 300px;
+        border-radius: 2rem;
+    }
+
+    .summary {
+        min-width: 300px;
     }
 }
