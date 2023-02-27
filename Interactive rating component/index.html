@@ -27,30 +27,34 @@
     </p>
     <div class="out-of-5">
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
+        <li class="rate-btn">1</li>
+        <li class="rate-btn">2</li>
+        <li class="rate-btn">3</li>
+        <li class="rate-btn">4</li>
+        <li class="rate-btn">5</li>
       </ul>
     </div>
-    <button class="submit">Submit</button>
+    <button class="submit" id="submit-btn">Submit</button>
   </div>
 
   <!-- Rating state end -->
 
 
   <!-- Thank you state start -->
-  <div class="thanks">
+  <div class="thanks hidden">
     <div class="image">
       <img src="images/illustration-thank-you.svg" alt="">
     </div>
-    <h3 class="rating-line">You selected <!-- Add rating here --> out of 5</h3>
+    <h3 class="rating-line">You selected
+      <span id="user-rating"></span>
+      out of 5
+    </h3>
     <h2 class="thank-you">Thank you!</h2>
     <p class="lorem thanks-lorem">
       We appreciate you taking the time to give a rating. If you ever need more support,
       don’t hesitate to get in touch!
     </p>
+    <button class="submit" id="back-btn">Rate again</button>
   </div>
 
   <!-- Thank you state end -->

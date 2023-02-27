@@ -18,6 +18,9 @@ body {
     background-color: hsl(216, 12%, 8%);
     border-radius: 1.5rem;
     padding: 1.5rem;
+}
+
+.hidden {
     display: none;
 }
 
@@ -68,6 +71,10 @@ body {
 .out-of-5 ul li:hover {
     background-color: hsl(25, 97%, 53%);
     color: #fff;
+}
+
+.out-of-5 ul li:focus {
+    background-color: hsl(217, 12%, 63%);
 }
 
 .submit {
