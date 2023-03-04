@@ -11,7 +11,7 @@ font-family: 'Lexend Deca', sans-serif; */
 
 body {
     background-color: dodgerblue;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .main-container {
@@ -86,4 +86,18 @@ body {
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
     font-size: .95rem;
     font-weight: 500;
+}
+
+@media screen and (max-width: 560px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .sedan {
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 1rem 1rem;
+    }
 }
